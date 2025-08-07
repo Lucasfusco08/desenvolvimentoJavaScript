@@ -11,17 +11,16 @@
 <body>
     <label for="nome">NOME</label>
     <input type="text" id="nome">
-    <input type="submit" value="Enviar" onclick="atualizapagina">
     <p></p>
-    
+    <input type="submit" value="Enviar" onclick="atualizapagina()">
     
     <script>
         function atualizapagina(){
 
 
-       let nome = document.getElementById("nome").value
-       let paragrafo=document.getElementsByTagName("p")[0]
-            paragrafo
+            let nome = document.getElementById("nome").value
+            let paragrafo = document.getElementsByTagName("p")[0]
+            paragrafo.textContent = nome
         }
     </script>
 
