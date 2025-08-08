@@ -10,8 +10,8 @@
     if ( =metodoPagamento==1){
         let valorFinal = valorGasto * 0.9
         console.log("MÉTODO DE PAGAMENTO BOLETO/PIX")
-        console.log("O valor final foi de R$ " + valorFinal)
+        console.log("O valor final foi de R$ " + valorFinal);
     }else {
         console.log("MÉTODO DE PAGAMENTO CRÉDITO")
-        console.log("O valor final foi de R$ " + valorGasto)
+        console.log("O valor final foi de R$ " + valorGasto);
     }
